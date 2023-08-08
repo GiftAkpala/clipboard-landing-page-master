@@ -7,6 +7,7 @@ body{
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
   max-width: 375px;
+  margin: auto;
   background: url("images/bg-header-desktop.png");
   background-repeat: no-repeat;
   text-align: center;
@@ -19,7 +20,7 @@ h1 {
 }
 p {
   line-height: 1.7rem;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   color: hsl(201, 10%, 40%);
 }
 nav {
@@ -46,7 +47,7 @@ a {
 h2, h3, h4 {
   margin-top: 30px;
   margin-bottom: 15px;
-  padding: 0 40px;
+  padding: 0 65px;
 
 }
 .img-computer {
@@ -70,13 +71,5 @@ footer {
 .flex {
   display: flex;
   justify-content: space-evenly;
-  margin: 50px;
-}
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+  padding: 30px 80px 80px 80px;
+30

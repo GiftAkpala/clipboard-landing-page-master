@@ -3,15 +3,13 @@
   padding: 0;
 }
 
-body {
+body{
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
   max-width: 375px;
   background: url("images/bg-header-desktop.png");
   background-repeat: no-repeat;
   text-align: center;
-  line-break: auto;
-
 }
 .logo-svg {
   margin: 100px 0 50px 0;
@@ -22,6 +20,7 @@ h1 {
 p {
   line-height: 1.7rem;
   margin-bottom: 30px;
+  color: hsl(201, 10%, 40%);
 }
 nav {
   margin: 50px 5px 150px 5px;
@@ -47,11 +46,13 @@ a {
 h2, h3, h4 {
   margin-top: 30px;
   margin-bottom: 15px;
-  line-break: anywhere;
 }
 .img-computer {
   width: 100%;
   margin: 50px 0;
+}
+.icon {
+  margin-top: 50px;
 }
 .access {
   margin: 100px 0;
@@ -66,6 +67,14 @@ footer {
 }
 .flex {
   display: flex;
-  justify-content: center;
-  width: 60%;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  max-width: 375px;
+  background: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  line-break: auto;
+
+}
+.logo-svg {
+  margin: 100px 0 50px 0;
+}
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  line-height: 1.7rem;
+  margin-bottom: 30px;
+}
+nav {
+  margin: 50px 5px 150px 5px;
+}
+a {
+  text-decoration: none;
+  margin: 10px;
+}
+.ios-btn {
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  padding: 18px 90px;
+  border-radius: 100px;
+  box-shadow: 3px 3px 5px 5px hsl(171, 62%, 90%);
+}
+.mac-btn {
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  padding: 18px 90px;
+  border-radius: 100px;
+  box-shadow: 3px 3px 5px 5px hsl(232, 24%, 88%);
+}
+h2, h3, h4 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  line-break: anywhere;
+}
+.img-computer {
+  width: 100%;
+  margin: 50px 0;
+}
+.access {
+  margin: 100px 0;
+
+}
+.img-device {
+  width: 100%;
+  margin: 50px 0;
+}
+footer {
+  background-color: hsl(200, 31%, 94%);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}

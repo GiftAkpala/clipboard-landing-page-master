@@ -1,25 +1,27 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 body{
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
-  max-width: 375px;
+  width: 100%;
   margin: auto;
   background: url("images/bg-header-desktop.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   text-align: center;
+  line-height: 2rem;
 }
 .logo-svg {
   margin: 100px 0 50px 0;
 }
 h1 {
   margin-bottom: 10px;
+  font-weight: 600px;
 }
 p {
-  line-height: 1.7rem;
   margin-bottom: 25px;
   color: hsl(201, 10%, 40%);
 }
@@ -28,7 +30,7 @@ nav {
 }
 a {
   text-decoration: none;
-  margin: 10px;
+  margin: auto;
 }
 .ios-btn {
   color: white;
@@ -44,11 +46,11 @@ a {
   border-radius: 100px;
   box-shadow: 3px 3px 5px 5px hsl(232, 24%, 88%);
 }
-h2, h3, h4 {
-  margin-top: 30px;
+h2, h3 {
+  margin-top: 40px;
   margin-bottom: 15px;
   padding: 0 65px;
-
+  font-weight: 600;
 }
 .img-computer {
   width: 100%;
@@ -65,6 +67,11 @@ h2, h3, h4 {
   width: 100%;
   margin: 50px 0;
 }
+.logo-container img {
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+}
 footer {
   background-color: hsl(200, 31%, 94%);
 }
@@ -73,3 +80,64 @@ footer {
   justify-content: space-evenly;
   padding: 30px 80px 80px 80px;
 }
+@media (min-width:1024px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+  nav {
+    display: flex;
+    margin: 20px 5px 100px 5px;
+  }
+  .ios-btn {
+    margin: auto;
+    margin-right: 10px;
+    padding: 18px 50px;
+  }
+  .mac-btn {
+    margin: auto;
+    margin-left: 10px;
+    padding: 18px 50px;
+  }
+p {
+    margin: auto;
+    margin-bottom: 0px;
+    width: 48%;
+  }
+  .flex-container {
+    display: flex;
+    gap: 3%;
+  }
+  .img-computer {
+    width: 50%
+  }
+  .p-flex {
+    text-align: left;
+    margin-top: 2%;
+  }
+  .p-flex p {
+    margin-left: 10.3%;
+    width: 60%;
+  }
+  .img-device {
+    width: 60%;
+  }
+  .flex-container1 {
+    display: flex;
+    flex-wrap: no-wrap;
+    margin: 0 50px;
+  }
+  .flex-container1  p{
+    width: 80%; 
+    margin: auto;
+  }
+  .icon-blacklist, .icon-text, .icon-preview {
+    flex: 25%;
+  }
+  .logo-container {
+    display: flex;
+  } 
+  footer {
+    display: flex;
+justify-content: space-between;
+  }
+  .footer_p{
+    display: flex;
+  }
+  }
